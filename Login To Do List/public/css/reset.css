@@ -1,0 +1,13 @@
+.reset-container {
+    overflow: hidden;
+}
+.reset-view {
+    width: 80%;
+    height: 500px;
+}
+.reset-bg {
+    background-image: url("/img/jason-dent-3wPJxh-piRw-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

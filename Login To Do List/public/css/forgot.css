@@ -1,0 +1,14 @@
+.forgot-view {
+    width: 100%;
+    overflow: hidden;
+}
+.forgot-content {
+    width: 65%;
+    height: 500px;
+}
+.cover-forgot {
+    background-image: url("/img/annie-spratt-vGgn0xLdy8s-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

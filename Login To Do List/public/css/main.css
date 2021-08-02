@@ -1,0 +1,79 @@
+.container-full-screen {
+    width: 100%;
+    overflow: hidden;
+}
+.navbar {
+    font-family: "Poppins-Regular";
+}
+.cover {
+    height: 500px;
+    background-image: url("/img/matt-ragland-8OVDzMGB_kw-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.cover .title {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+.cover .title h1,
+.cover .title p {
+    font-family: "Poppins-Regular";
+    color: white;
+    text-align: center;
+}
+.list {
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.content p {
+    font-family: "Poppins-Regular";
+}
+.write .text {
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+textarea {
+    width: 100%;
+    font-family: "Poppins-Regular";
+}
+textarea:hover,
+textarea:focus
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+.identifity {
+    font-family: "Poppins-Regular";
+}
+
+.message-notifications {
+    width: 50%;
+}
+
+.delete-message,
+.expired-time {
+    font-family: "Poppins-Regular";
+}
+.empty-box {
+    height: 100px;
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("/css/Poppins-Regular.ttf");
+}
+
+@media (max-width: 575.98px) {
+    .list {
+        width: 85%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}

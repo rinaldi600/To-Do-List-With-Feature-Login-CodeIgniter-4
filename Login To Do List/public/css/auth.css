@@ -1,0 +1,13 @@
+.container-auth {
+    width: 100%;
+}
+.auth-view {
+    width: 65%;
+}
+.cover-auth {
+    background-image: url("/img/stefan-stefancik-pzA7QWNCIYg-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}

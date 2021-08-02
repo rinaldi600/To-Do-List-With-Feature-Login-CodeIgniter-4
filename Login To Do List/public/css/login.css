@@ -1,0 +1,28 @@
+label {
+    font-family: "Poppins-Regular";
+}
+.alert-text {
+    font-family: "Poppins-Light";
+}
+button[type=submit] {
+    font-family: "Poppins-Regular";
+}
+.coverr {
+    height: 500px;
+    background-image: url("/img/matt-ragland-8OVDzMGB_kw-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+a {
+    font-family: "Poppins-Light";
+}
+@font-face {
+    src: url("/css/Poppins-Regular.ttf");
+    font-family: "Poppins-Regular";
+}
+@font-face {
+    src: url("/css/Poppins-Light.ttf");
+    font-family: "Poppins-Light";
+}
